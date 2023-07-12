@@ -2,7 +2,7 @@
 --First_Query--
 SELECT COUNT(*) AS FEMALECOUNT
 FROM AIRLINE
-WHERE GENDER='FEMALE';
+WHERE GENDER='Female';
 
 --Second_Query--
 
