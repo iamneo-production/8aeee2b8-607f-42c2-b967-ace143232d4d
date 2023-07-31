@@ -1,4 +1,4 @@
--1st query
+--1st query
 select count(*) as FEMALE_COUNT
 from airline
 where gender='Female';
