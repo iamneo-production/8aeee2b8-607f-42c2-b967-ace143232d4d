@@ -1,4 +1,4 @@
---First Query--
+---First Query--
 
 SELECT COUNT(*) AS FEMALECOUNT
 FROM AIRLINE
