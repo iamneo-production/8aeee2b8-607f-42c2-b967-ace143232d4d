@@ -22,7 +22,7 @@ jobs:
           java-version: 11
       - name: Build and analyze
         env:
-          GITHUB_TOKEN: 8aeee2b8-607f-42c2-b967-ace143232d4d
+          GITHUB_TOKEN: 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
           SONAR_TOKEN: 811c9a490983734401ba4e491eaefc8bfa7281de
       
 
