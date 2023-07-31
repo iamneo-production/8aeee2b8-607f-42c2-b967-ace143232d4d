@@ -5,7 +5,7 @@ where gender='Female';
 --end
 
 --2nd query
-select count(*) as PASSENGERCOUNT
+select count(*) as PASSENGER_COUNT
 from airline
 where CLASS='Business';
 --end
@@ -18,13 +18,13 @@ where CLASS='Eco';
 --end
 
 --4th query
-select count(*) as KIDCOunt
+select count(*) as KIDCOUNT
 from airline
 where AGE<13;
 --end
 
 --5th query
-select count(*) as ADULTCOUNT
+select count(*)  as ADULTCOUNT
 from airline
 where AGE>16 and CLASS='Business';
 --end
