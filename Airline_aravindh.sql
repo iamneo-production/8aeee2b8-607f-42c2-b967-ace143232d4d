@@ -18,13 +18,13 @@ where CLASS='Eco';
 --end
 
 --4th query
-select count(*) as KIDCOUNT
+select count(*) as KIDCOunt
 from airline
 where AGE<13;
 --end
 
 --5th query
-select count(*)  as ADULTCOUNT
+select count(*) as ADULTCOUNT
 from airline
 where AGE>16 and CLASS='Business';
 --end
