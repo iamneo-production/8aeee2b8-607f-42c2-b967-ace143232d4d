@@ -5,13 +5,12 @@ where gender='Female';
 --end
 
 --2nd query
-select count(*) as PASSENGERCOUNT
+select count(*) as PASSENGER_COUNT
 from airline
 where CLASS='Business';
 --end
 
---3rd
-query
+--3rd query
 select count(*) as ECOPASSENGER
 from airline
 where CLASS='Eco';
